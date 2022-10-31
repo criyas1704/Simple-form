@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body>
+	<form>
+		First Name : <input type="text" name="fname"><br>
+		Last Name : <input type="text" name="lname"><br>
+		Email : <input type="email" name="email" required><br>
+		Password : <input type="password" name="password"><br>
+		Birthday : <input type="date" name="bday"><br>
+		Gender :<br>
+		<input type="radio" name="gender" value="male">Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="other">Other<br>
+		Pets : <br>
+		<input type="checkbox" name="cat">Cat<br>
+		<input type="checkbox" name="dog">Dog<br>
+		Cars :<br>
+		<select name="cars">
+			<option value="volvo"> Volvo</option>
+			<option value="Audi"> Audi</option>
+		</select><br>
+		<input type="submit" value="register">
+		<input type="reset">
+	</form>
+
+</body>
+</html>
+
+
+?fname=fake
+&lname=ma
+&email=poli%40gmail.com
+&password=123
+&bday=2022-04-07
+&gender=male
+&cat=on&dog=on
+&cars=volvo
